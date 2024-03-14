@@ -6,13 +6,13 @@ Console.WriteLine("Modyfikacja 2");
 Console.WriteLine("Modyfikacja 3");
 static double GetAverage(int[] numbers)
 {
-    double res2 = 0.0;
+    double result2z = 0.0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        res2 += numbers[i];
+        result2z += numbers[i];
     }
 
-    return res2 / numbers.Length;
+    return result2z / numbers.Length;
 }
 static double GetMax(int[] numbers)
 {
